@@ -1,0 +1,33 @@
+Sure, here is a simple documentation on how to create a new Django project after cloning your repository from Github:
+
+Open a terminal and navigate to the cloned repository directory.
+Create a new Python environment by running the pythonvenv.sh script in the terminal.
+Activate the Python environment by running the following command in the terminal:
+bash
+Copy code
+source myenv/bin/activate
+
+Install Django in the activated Python environment by running the following command in the terminal:
+Copy code
+pip install django
+
+Once Django is installed, create a new Django project by running the following command in the terminal:
+php
+Copy code
+django-admin startproject <project_name>
+
+Replace <project_name> with the desired name of your new Django project.
+After creating the project, navigate into the project directory by running the following command in the terminal:
+bash
+Copy code
+cd <project_name>
+
+Replace <project_name> with the name of your new Django project.
+Create a new app within the project by running the following command in the terminal:
+php
+Copy code
+python manage.py startapp <app_name>
+
+Replace <app_name> with the desired name of your new app.
+
+And that's it! You now have a new Django project with a new app created within it.
